@@ -1,0 +1,52 @@
+const m=7, n=85;
+var x,y,z,q,r:integer;
+    bool:boolean;
+// test
+procedure multiply;
+    var a,b:integer;
+    begin
+        a:=x; b:=y; z:=0;
+        while b>0 do
+            begin
+                if odd(b) then z:=z+a;
+                a:=2*a;
+                //exit;
+                b:=b/2;
+            end
+    end;
+/* aaa 
+
+test *
+
+//
+
+/*
+
+*/
+begin
+    x:=m; y:=n;
+    call multiply;
+    if 1<>2 then x:=x+1
+    else x:=x-1;
+    //exit;
+    write(x,2>1,odd(x),odd(x-1));
+    //read(x,y);
+    if (true) then write(y,x);
+    write(not false);
+    write(not(2>1));
+    write(1 and 1);
+    write(0 and 1);
+    write(0 and 0);
+    write(1 or 1);
+    write(0 or 1);
+    write(0 or 0);
+    write(5 div 2);
+    write(5 mod 2);
+    bool:=false;
+    write(bool);
+    bool:=100;
+    write(bool);
+    write(1111);//divider line
+    write(0 or 0 or 1);
+    write(1 and 1 and 0);
+end.

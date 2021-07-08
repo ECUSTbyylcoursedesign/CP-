@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1625625048 source:c:\users\13920\desktop\编译原理\cp\def.cpp
+	<cstring>
+	"def.h"
+
+1625625354 c:\users\13920\desktop\编译原理\cp\def.h
+	<cstdio>
+
+1625625401 source:c:\users\13920\desktop\编译原理\cp\env.cpp
+	<cstring>
+	<cstdio>
+	"def.h"
+
+1625625435 source:c:\users\13920\desktop\编译原理\cp\err.cpp
+	<cstdio>
+	"def.h"
+
+1625625468 source:c:\users\13920\desktop\编译原理\cp\gen.cpp
+	<cstdio>
+	<cstdlib>
+	"def.h"
+
+1625625508 source:c:\users\13920\desktop\编译原理\cp\int.cpp
+	"def.h"
+
+1625625543 source:c:\users\13920\desktop\编译原理\cp\lexer.cpp
+	<cstdio>
+	<cctype>
+	<cstring>
+	<cstdlib>
+	"def.h"
+
+1625625898 source:c:\users\13920\desktop\编译原理\cp\main.cpp
+	<cstdlib>
+	"def.h"
+
+1625625584 source:c:\users\13920\desktop\编译原理\cp\parse.cpp
+	<cstdio>
+	"def.h"
+
